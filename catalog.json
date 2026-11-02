@@ -1,4 +1,29 @@
 {
   "schema": 1,
-  "entries": []
+  "entries": [
+    {
+      "id": "trawl",
+      "kind": "integration",
+      "version": "1.0.0",
+      "sourceHash": "9ea52b6eef09949b41b6462d77c63f549749bbb5a939dbfa02a8190389209ab8",
+      "files": [
+        {
+          "path": "plugin.json",
+          "sha256": "47fe1cedb87ee4ded6084e6ada7dd3f29efd76edca9279bac91c67208dee2c50",
+          "size": 630
+        },
+        {
+          "path": "icon.webp",
+          "sha256": "5b6d768a08b887dd6d4c80d6e3f5e081045c338af954388ae56846f578c13fe9",
+          "size": 68
+        },
+        {
+          "path": "plugin.js",
+          "sha256": "146f428e182d424cd3aa318d3dfc78bd60f1ee99579ff7dfe9fa61495061823e",
+          "size": 13083
+        }
+      ],
+      "sig": "BCP3rA2eOyGKLrKDZh3I+1fINdVRNhZDDeqE3O+6xaLvO+KAGKid82Th5sjFy+y0lq93TwH3a6uQW2JkpVmxAw=="
+    }
+  ]
 }

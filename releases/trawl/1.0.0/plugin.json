@@ -1,0 +1,25 @@
+{
+  "id": "trawl",
+  "kind": "integration",
+  "version": "1.0.0",
+  "apiVersion": 2,
+  "entry": "plugin.js",
+  "provides": [
+    "web.fetch@1",
+    "card@1"
+  ],
+  "uses": {},
+  "name": "Trawl",
+  "description": "Fetches pages through your Trawl server, which clears Cloudflare and other browser challenges",
+  "config": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "description": "Address of your Trawl server, for example http://trawl:8191"
+    },
+    "token": {
+      "type": "secret",
+      "description": "Only if Trawl sets METRICS_DASHBOARD_TOKEN: lets the card read its request history"
+    }
+  }
+}
