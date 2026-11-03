@@ -1,0 +1,25 @@
+{
+  "id": "shardx",
+  "kind": "integration",
+  "version": "1.1.3",
+  "apiVersion": 2,
+  "entry": "plugin.js",
+  "provides": [
+    "web.fetch@1",
+    "browser.run@1",
+    "card@1"
+  ],
+  "uses": {},
+  "name": "ShardX",
+  "description": "Fetches pages and runs scripted browser steps in a ShardX browser on your server, a stealth Chromium that gets past bot checks",
+  "config": {
+    "url": {
+      "type": "string",
+      "description": "Address of the ShardX automation API, like http://your_shardx_host:40325"
+    },
+    "token": {
+      "type": "secret",
+      "description": "Bearer token from ShardX Settings, Automation API"
+    }
+  }
+}

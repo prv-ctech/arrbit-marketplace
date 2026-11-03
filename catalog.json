@@ -24,6 +24,30 @@
         }
       ],
       "sig": "BCP3rA2eOyGKLrKDZh3I+1fINdVRNhZDDeqE3O+6xaLvO+KAGKid82Th5sjFy+y0lq93TwH3a6uQW2JkpVmxAw=="
+    },
+    {
+      "id": "shardx",
+      "kind": "integration",
+      "version": "1.1.3",
+      "sourceHash": "a22bc363c502c9965eac7ce741501b7064f6a9d0a60eb950c7516826fb06da86",
+      "files": [
+        {
+          "path": "plugin.json",
+          "sha256": "7dd261551304b7d2f084af1229b75f968b9647c6e34f606858e9b044158ce60c",
+          "size": 642
+        },
+        {
+          "path": "icon.webp",
+          "sha256": "257bb98321c83f5d42d59df24e52a2192862ce4b359f39aeabff79213faec4a4",
+          "size": 1040
+        },
+        {
+          "path": "plugin.js",
+          "sha256": "3e5696a466faa28f3075b627888706626b6d193363586b8240621785b8966510",
+          "size": 25545
+        }
+      ],
+      "sig": "mXCvMyuApQSmcZDg9WA17UBJkUdL3AB6CE4tCMcgtMNMaYaDfzv0i+3I6npg3ucHd5wh3TvoF0MQjjaWHuzOAw=="
     }
   ]
 }
